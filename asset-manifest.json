@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/typTest01/static/css/main.3da1c789.chunk.css",
+    "main.js": "/typTest01/static/js/main.3a36f64e.chunk.js",
+    "main.js.map": "/typTest01/static/js/main.3a36f64e.chunk.js.map",
+    "runtime-main.js": "/typTest01/static/js/runtime-main.2afc0e17.js",
+    "runtime-main.js.map": "/typTest01/static/js/runtime-main.2afc0e17.js.map",
+    "static/js/2.24923447.chunk.js": "/typTest01/static/js/2.24923447.chunk.js",
+    "static/js/2.24923447.chunk.js.map": "/typTest01/static/js/2.24923447.chunk.js.map",
+    "static/js/3.86d7a6f3.chunk.js": "/typTest01/static/js/3.86d7a6f3.chunk.js",
+    "static/js/3.86d7a6f3.chunk.js.map": "/typTest01/static/js/3.86d7a6f3.chunk.js.map",
+    "index.html": "/typTest01/index.html",
+    "static/css/main.3da1c789.chunk.css.map": "/typTest01/static/css/main.3da1c789.chunk.css.map",
+    "static/js/2.24923447.chunk.js.LICENSE.txt": "/typTest01/static/js/2.24923447.chunk.js.LICENSE.txt",
+    "static/media/Byron01.b10d999d.jpeg": "/typTest01/static/media/Byron01.b10d999d.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2afc0e17.js",
+    "static/js/2.24923447.chunk.js",
+    "static/css/main.3da1c789.chunk.css",
+    "static/js/main.3a36f64e.chunk.js"
+  ]
+}
