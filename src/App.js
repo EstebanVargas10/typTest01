@@ -16,30 +16,29 @@ function App() {
         <h2>The Young Promise</h2>
 
         <p className="customText">
-          Plaio, digame que texto podríamos poner aca. Tenemos campos para poner
-          mucha hablada, esto es un ejemplo de un text muy largo
+          Esto es un borrador de The Young Promise. Una simple prueba. Nada muy
+          formal ni elegante.
         </p>
 
         <p className="customText">
-          Podemos escribir varios parrajos de lo que se nos de la gana. Estoy
-          revisando como podemos saber que tante gente se metió en el sitio si
-          es que le nos damos por este vara, para crear más misterio jeje
+          Mucho de este texto no tiene mucho sentido, más que un lugar para
+          ilustrar lo que serían unos parrafos de inspiración. Habiendo dicho
+          esto. Estoy en una situación similar a cuando el profe solicita llenar
+          una resumen de 200 palabras, pero uno no tiene idea de que carajos
+          escribir
         </p>
 
         <p className="customText">
-          Contar alguna breve historia, algo no muy elaborado. O se le puede
-          cagar a la tía de chepe
+          Puede ser comer chocolate, o cacao. Pero ninguno de ellos va a dar
+          sabor a helado. Todo es cuestión de perspectiva, cuestión de como se
+          ven las cosas en la vida.
         </p>
 
         <p className="customText">
-          Todo va a depender de que tanto se quiera inspirar. Voy a poner un
-          texto genérico para que vea como se ve con un mucho text. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Mauris justo nibh, tempor
-          sed tincidunt nec, ultricies ac diam. Proin ex mi, cursus sed volutpat
-          ac, faucibus in lorem. Aliquam sit amet metus at arcu tempus fermentum
-          a a mi. Nunc aliquet ex vel tellus sagittis, non finibus mauris
-          sagittis. Cras commodo quam vel quam iaculis, malesuada ultricies nunc
-          convallis
+          Voy a poner un texto genérico para que vea como se ve con un mucho
+          text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+          justo nibh, tempor sed tincidunt nec, ultricies ac diam. Proin ex mi,
+          cursus sed volutpat ac, faucibus in lorem.
         </p>
 
         <h5>- Byron</h5>
