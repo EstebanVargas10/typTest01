@@ -47,6 +47,13 @@ function App() {
         <img src={Byron01} className="customImage" />
         {/* <h7>#Cacao</h7> */}
 
+        <br />
+        <br />
+        <text>
+          {'\n'}
+          1/OCT/2021 (O la fecha de cacao)
+        </text>
+
         {/* <a
           className="App-link"
           href="https://reactjs.org"
