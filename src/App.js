@@ -45,7 +45,7 @@ function App() {
         <h5>- Byron</h5>
 
         <img src={Byron01} className="customImage" />
-        <h7>#Cacao</h7>
+        {/* <h7>#Cacao</h7> */}
 
         {/* <a
           className="App-link"
