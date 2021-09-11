@@ -10,10 +10,17 @@ app.use('/img', express.static(__dirname + 'public/img'));
 app.set('views', './views');
 app.set('view engine', 'ejs');
 
+//Home
 app.get('', (req, res) => {
   res.render('index');
 });
 
+//Songs
+app.get('/MediaNoche', (req, res) => {
+  res.render('MediaNoche');
+});
+
+// Social
 app.get('/YT', (req, res) => {
   res.render('YT');
 });
