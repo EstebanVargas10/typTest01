@@ -2,11 +2,12 @@ const express = require('express');
 const app = express();
 var git = require('git-rev-sync');
 
-console.log(git.short());
-
 app.listen(3000, () => {
   console.log('Application started and Listening on port 3000');
 });
+
+const gitHash = git.short();
+console.log(`Git hash: ${gitHash}`);
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/pages/index.html');
