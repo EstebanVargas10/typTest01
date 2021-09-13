@@ -1,28 +1,29 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+var git = require('git-rev-sync');
 
-app.use(express.static('public'));
-app.use('/css', express.static(__dirname + 'public/css'));
-app.use('/js', express.static(__dirname + 'public/js'));
-app.use('/img', express.static(__dirname + 'public/img'));
-
-app.set('views', './views');
-app.set('view engine', 'ejs');
-
-//Home
-app.get('', (req, res) => {
-  res.render('index');
+app.listen(3000, () => {
+  console.log('Application started and Listening on port 3000');
 });
 
-//Songs
+const gitHash = git.short();
+console.log(`Git hash: ${gitHash}`);
+
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/pages/index.html');
+});
+
+// Songs
 app.get('/MediaNoche', (req, res) => {
-  res.render('MediaNoche');
+  res.sendFile(__dirname + '/pages/MediaNoche.html');
+});
+
+app.get('/Cacao', (req, res) => {
+  console.log('Cacao');
+  res.sendFile(__dirname + '/pages/Cacao.html');
 });
 
 // Social
 app.get('/YT', (req, res) => {
-  res.render('YT');
+  res.sendFile(__dirname + '/pages/YT.html');
 });
-
-app.listen(port, () => console.info(`Listening on port ${port}`));
