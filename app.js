@@ -18,6 +18,10 @@ app.get('/MediaNoche', (req, res) => {
   res.sendFile(__dirname + '/pages/MediaNoche.html');
 });
 
+app.get('/Chirripo', (req, res) => {
+  res.sendFile(__dirname + '/pages/Chirripo.html');
+});
+
 app.get('/Cacao', (req, res) => {
   console.log('Cacao');
   res.sendFile(__dirname + '/pages/Cacao.html');
@@ -26,4 +30,9 @@ app.get('/Cacao', (req, res) => {
 // Social
 app.get('/YT', (req, res) => {
   res.sendFile(__dirname + '/pages/YT.html');
+});
+
+// Config
+app.get('/deploy', (req, res) => {
+  res.sendFile(__dirname + '/pages/deploy.html');
 });
