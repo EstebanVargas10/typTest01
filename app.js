@@ -22,6 +22,10 @@ app.get('/Chirripo', (req, res) => {
   res.sendFile(__dirname + '/pages/Chirripo.html');
 });
 
+app.get('/ODM', (req, res) => {
+  res.sendFile(__dirname + '/pages/ODM.html');
+});
+
 app.get('/Cacao', (req, res) => {
   console.log('Cacao');
   res.sendFile(__dirname + '/pages/Cacao.html');
