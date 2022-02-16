@@ -32,8 +32,11 @@ app.get('/Cacao', (req, res) => {
 });
 
 app.get('/MeetAndGreet', (req, res) => {
-  console.log('MeetAndGreet');
-  res.sendFile(__dirname + '/pages/MeetAndGreet.html');
+  res.sendFile(__dirname + '/pages/Playlist.html');
+});
+
+app.get('/Playlist', (req, res) => {
+  res.sendFile(__dirname + '/pages/Playlist.html');
 });
 
 // Social
