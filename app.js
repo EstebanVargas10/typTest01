@@ -36,6 +36,7 @@ app.get('/Nalgotas', (req, res) => {
   res.sendFile(__dirname + '/pages/Nalgotas.html');
 });
 
+// Others
 app.get('/MeetAndGreet', (req, res) => {
   res.sendFile(__dirname + '/pages/Playlist.html');
 });
@@ -52,8 +53,4 @@ app.get('/YT', (req, res) => {
 // Config
 app.get('/deploy', (req, res) => {
   res.sendFile(__dirname + '/pages/deploy.html');
-});
-
-app.get('*', function (req, res) {
-  res.sendFile(__dirname + '/pages/Playlist.html');
 });
