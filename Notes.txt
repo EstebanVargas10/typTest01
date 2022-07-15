@@ -2,6 +2,7 @@ Change Gitpage link:
 
 theyoungpromise.com
 
+npm run deploy
 
 https://developers.facebook.com/tools/debug
 
