@@ -31,6 +31,11 @@ app.get('/Cacao', (req, res) => {
   res.sendFile(__dirname + '/pages/Cacao.html');
 });
 
+app.get('/Nalgotas', (req, res) => {
+  console.log('Nalgotas');
+  res.sendFile(__dirname + '/pages/Nalgotas.html');
+});
+
 app.get('/MeetAndGreet', (req, res) => {
   res.sendFile(__dirname + '/pages/Playlist.html');
 });
@@ -47,4 +52,8 @@ app.get('/YT', (req, res) => {
 // Config
 app.get('/deploy', (req, res) => {
   res.sendFile(__dirname + '/pages/deploy.html');
+});
+
+app.get('*', function (req, res) {
+  res.sendFile(__dirname + '/pages/Playlist.html');
 });
