@@ -59,7 +59,7 @@ app.get('/deploy', (req, res) => {
   res.sendFile(__dirname + '/pages/deploy.html');
 });
 
-// Config
-app.get('*', (req, res) => {
+// 404
+app.all('*', (req, res) => {
   res.sendFile(__dirname + '/pages/Playlist.html');
 });
