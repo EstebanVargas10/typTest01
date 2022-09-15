@@ -46,7 +46,7 @@ app.get('/playlist', (req, res) => {
 });
 
 // Social
-app.get('/YT', (req, res) => {
+app.get('/youtube', (req, res) => {
   res.sendFile(__dirname + '/pages/youtube.html');
 });
 
