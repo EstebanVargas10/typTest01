@@ -31,27 +31,27 @@ app.get('/Cacao', (req, res) => {
   res.sendFile(__dirname + '/pages/Cacao.html');
 });
 
-app.get('/Nalgotas', (req, res) => {
-  console.log('Nalgotas');
-  res.sendFile(__dirname + '/pages/Nalgotas.html');
+app.get('/Decline', (req, res) => {
+  console.log('Decline');
+  res.sendFile(__dirname + '/pages/Decline.html');
 });
 
 // Others
 app.get('/MeetAndGreet', (req, res) => {
-  res.sendFile(__dirname + '/pages/Playlist.html');
+  res.sendFile(__dirname + '/pages/playlist.html');
 });
 
-app.get('/Playlist', (req, res) => {
-  res.sendFile(__dirname + '/pages/Playlist.html');
+app.get('/playlist', (req, res) => {
+  res.sendFile(__dirname + '/pages/playlist.html');
 });
 
 // Social
-app.get('/YT', (req, res) => {
-  res.sendFile(__dirname + '/pages/YT.html');
+app.get('/youtube', (req, res) => {
+  res.sendFile(__dirname + '/pages/youtube.html');
 });
 
-app.get('/Insta', (req, res) => {
-  res.sendFile(__dirname + '/pages/Insta.html');
+app.get('/insta', (req, res) => {
+  res.sendFile(__dirname + '/pages/insta.html');
 });
 
 // Config
